@@ -24,8 +24,8 @@ env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
   GKE_CLUSTER: dotnetcore    # TODO: update to cluster name
   GKE_ZONE: europe-west6-c  # TODO: update to cluster zone
-  DEPLOYMENT_NAME: DotnetDocker # TODO: update to deployment name
-  IMAGE: DotnetDocker
+  DEPLOYMENT_NAME: dotnetcore # TODO: update to deployment name
+  IMAGE: dotnetcore
 
 jobs:
   setup-build-publish-deploy:
