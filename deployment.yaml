@@ -15,12 +15,12 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: DotnetDocker
+  name: DotnetCore
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: DotnetDocker
+      app: DotnetCore
   strategy:
     rollingUpdate:
       maxSurge: 1
@@ -29,10 +29,10 @@ spec:
   template:
     metadata:
       labels:
-        app: DotnetDocker
+        app: DotnetCore
     spec:
       containers:
-      - name: DotnetDocker
+      - name: DotnetCore
         image: gcr.io/PROJECT_ID/IMAGE:TAG
         ports:
         - containerPort: 5001
