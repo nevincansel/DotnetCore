@@ -9,7 +9,7 @@ Usage
 -------------
 
 * Go Actions tab in your repo.
-* Since you have .github/workflows defined, workflow will be created automatically.
+* Since you have .github/workflows defined in the repo, workflow will be created automatically.
 * After Build and Deploy steps are finished, you can check your website on Google Kubernetes Engine.
 
 
