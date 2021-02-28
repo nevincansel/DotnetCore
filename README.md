@@ -1,4 +1,4 @@
-# udacity_clouddevopsengineer
+# dotnetcore_docker
 Dockerize, Build and Deploy to GKS with GitHub Actions a dotnetcore website.
 
 Documentation
