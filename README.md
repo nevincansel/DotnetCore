@@ -1,4 +1,4 @@
-# dotnetcore_docker
+# dotnetcore_gks
 Dockerize, Build and Deploy to GKS with GitHub Actions a dotnetcore website.
 
 Documentation
